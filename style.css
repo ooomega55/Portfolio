@@ -1,0 +1,398 @@
+/*Table word styling*/
+td {
+  color: blue;
+  font-size: 15px;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+/*Logo Animation - work in progress*/
+.animated.fast{
+  animation-iteration-count: 5s;
+}
+
+.hinge{
+  animation-name: hinge;
+}
+
+.animated{
+  animation-fill-mode: both;
+}
+
+/*Overall website*/
+.background {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(blue, dodgerblue, lime);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+
+/*Navbar animations*/
+.press {
+  border: black solid 10px solid;
+  border-radius: 10px 10px;
+}
+
+button:hover {
+  background: lime;
+  border: bold solid blue 10px;
+  border-radius: 10px 10px;
+}
+
+.hover {
+  color: #002aff;
+  border: 10px blue dotted bold;
+  border-radius: 10px;
+  animation-duration: 0.000000000005s;
+}
+
+.hover:hover {
+  background: lime;
+  border: bold solid blue 10px;
+  animation-duration: 2s;
+  border-radius: 10px 10px;
+}
+
+.nav-link {
+  background: lime;
+}
+/*Nav end*/
+
+/*Style of header for hobbies page*/
+.fixh{
+  font-size: 75px;
+  color: lime;
+  font-family: fantasy;
+}
+
+/*Background behind navbar image*/
+.recolor{
+  background: blue;
+}
+
+/*Homepage reminders*/
+.seccolor {
+  background: #28e628;
+  color: #0011ff;
+  font-family: helvetica;
+}
+
+/*About me page text styling*/
+.amstyle {
+  background: #02e3e3;
+  font-family: helvetica;
+  color: navy;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/*More design in about me page*/
+.hdesign {
+  color: #2a139a;
+  font-family: helvetica;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/*Text in projects page*/
+.projectcolor {
+  color: #5ef35e;
+  font-family: georgia;
+}
+
+/*Table styling*/
+.tabletitle {
+  color: blue;
+  font-size: 20px;
+  font-family: verdana;
+} 
+
+/*Text in resume page*/
+.resume {
+  color: darkblue;
+  font-family: tahoma;
+}
+
+/*Text in hobbies page*/
+.hobdesign {
+  color: lime;
+  font-family: verdana;
+  font-size: 30px;
+}
+
+/*CodeHS and other links*/
+.colorlink {
+  color: #2afefe;
+}
+
+/*Image fade for about me page*/
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in:hover {
+  cursor: pointer;
+  animation: fade-in 2s;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
+
+/*Invisible line in hobbies page*/
+.invisible{
+  color: #1567ff;
+}
+
+/*Card warning*/
+
+.danger{
+  color: #48f974;
+}
+
+/*Fix iframe*/
+
+.responsive-iframe {
+  position: relative;
+  width: 49%;
+  height: 150%;
+}
+
+/*Image borders*/
+
+
+.buddyhover:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, gold, white) 1;
+  cursor: pointer;
+}
+
+.neighborhover:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, peachpuff, peru) 1;
+  cursor: pointer;
+}
+
+.floofhover:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, black, lightgray, white) 1;
+  cursor: pointer;
+}
+
+.cujohover:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, black, gray) 1;
+  cursor: pointer;
+}
+
+.quaddoghover:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, navy, lightgray, deepskyblue, white, navy) 1;
+  cursor: pointer;
+}
+
+.oldbridge1:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, skyblue, #ff8b4d) 1;
+  cursor: pointer;
+}
+
+.oldbridge2:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, #ffcb5c, #28672c) 1;
+  cursor: pointer;
+}
+
+.oldbridge3:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, #e09006, green, black) 1;
+  cursor: pointer;
+}
+
+.oldbridge4:hover {
+  border: 5px solid;
+  border-image: linear-gradient(to right, gray, #f39f2b) 1;
+  cursor: pointer;
+}
+
+/*Jumbotron background*/
+.jumbotron-background{
+  background-color: blue;
+  padding: 3px;
+  margin: 1px;
+  margin-left: 15px;
+}
+
+/*Separate boxes in about me page*/
+.margins{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/*Table images brightness*/
+.tablebrightness:hover {
+  filter: brightness(150%);
+}
+
+/*Code for shining text*/
+.bright{
+  background: linear-gradient(to right, hsl(130, 100%, 50%) 0, lime 10%, hsl(200, 100%, 50%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  10% {
+    background-position: 50px;
+  }
+  20% {
+    background-position: 100px;
+  }
+  30% {
+    background-position: 200px;
+  }
+  40% {
+    background-position: 300px;
+  }
+  50% {
+    background-position: 400px;
+  }
+  60% {
+    background-position: 600px;
+  }
+  70% {
+    background-position: 600px;
+  }
+  80% {
+    background-position: 600px;
+  }
+  90% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+
+/*Code below is Christmas lights*/
+
+
+.lights {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hold {
+  position: absolute;
+  width: 100%;
+  margin: -87px 0 0;
+  padding: 0;
+  display: flex;
+}
+
+.hold .decorate{
+  list-style: none;
+  position: relative;
+  top: 20px;
+  width: 24px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .1);
+  margin: 25px;
+  z-index: 1;
+}
+
+/*Shift light blubs*/
+
+
+.hold .decorate:before{
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 7px;
+  width: 10px;
+  height: 8px;
+  background: #444;
+}
+
+.hold .decorate:after{
+  content: '';
+  position: absolute;
+  top: -24px;
+  left: 12px;
+  width: 74px;
+  height: 26px;
+  border-bottom: 2px solid #444;
+  border-radius: 50%;
+}
+
+.hold .decorate:lastchild:after{
+  border-bottom: none;
+}
+
+.hold .decorate:nth-child(3n+1){
+  background: rgba(255, 255, 0, 1);
+  animation: animate1 1.5s linear infinite;
+}
+
+@keyframes animate1{
+  0%{
+    background: rgba(0, 0, 255, .2);
+  }
+  50%{
+    background: rgba(0, 0, 255, 1);
+    box-shadow: 0 0 25px rgba(0,0,255,1), 0 0 45px rgba(0,0,255,1);
+  }
+  100%{
+    background: rgba(0, 0, 255, .2);
+  }
+}
+
+.hold .decorate:nth-child(3n+2){
+  background: cyan;
+  animation: animate2 1.5s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate2{
+  0%{
+    background: rgba(0, 255, 255, .2);
+  }
+  50%{
+    background: rgba(0, 255, 255, 1);
+    box-shadow: 0 0 25px rgba(0,255,255,1), 0 0 45px rgba(0,255,255,1);
+  }
+  100%{
+    background: rgba(0, 255, 255, .2);
+  }
+}
+
+.hold .decorate:nth-child(3n+3){
+  background: rgba(50, 255, 0, 1);
+  animation: animate3 1.5s linear infinite;
+  animation-delay: .5s;
+}
+
+@keyframes animate3{
+  0%{
+    background: rgba(50, 255, 0, .2);
+  }
+  50%{
+    background: rgba(50, 255, 0, 1);
+    box-shadow: 0 0 25px rgba(50, 255, 0, 1), 0 0 45px rgba(50, 255, 0, 1);
+  }
+  100%{
+    background: rgba(50, 255, 0, .2);
+  }
+}
