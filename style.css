@@ -23,7 +23,7 @@ td {
 .background {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(blue, dodgerblue, lime);
+  background-image: linear-gradient(#1e1ef6, #2a78c6, #1adb1a);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -57,6 +57,7 @@ button:hover {
 
 .nav-link {
   background: lime;
+  border-radius: 10px;
 }
 /*Nav end*/
 
@@ -72,11 +73,23 @@ button:hover {
   background: blue;
 }
 
-/*Homepage reminders*/
+/*Homepage fixes*/
 .seccolor {
-  background: #28e628;
-  color: #0011ff;
+  background: #36d936;
+  color: #2464e5;
   font-family: helvetica;
+}
+
+.paddingbottom {
+  padding-bottom: 50px;
+}
+
+.secsize {
+  font-size: 40px;
+}
+
+.bulletsize{
+  font-size: 20px;
 }
 
 /*About me page text styling*/
